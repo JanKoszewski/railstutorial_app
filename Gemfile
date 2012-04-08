@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.3'
 gem 'sqlite3'
 gem 'jquery-rails'
+gem 'gravatar_image_tag'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -22,6 +23,7 @@ group :development, :test do
   gem 'growl'
   gem 'simplecov'
   gem 'faker'
+  gem 'factory_girl_rails', '1.0'
 end
 
 
