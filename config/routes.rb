@@ -1,10 +1,15 @@
 RailstutorialApp::Application.routes.draw do
-  get "pages/home"
-  get "pages/contact"
-  get "pages/about"
+
+  root :to => "pages#home"
+
+  match '/signup',  :to => 'users#new'
+
+  match '/contact', :to => 'pages#contact'
+  match '/about',   :to => 'pages#about'
+  match '/help',    :to => 'pages#help'
 
   resources :microposts
-
+  # resources :pages
   resources :users
 
   # The priority is based upon order of creation:
