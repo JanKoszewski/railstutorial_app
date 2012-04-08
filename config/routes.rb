@@ -9,7 +9,6 @@ RailstutorialApp::Application.routes.draw do
   match '/help',    :to => 'pages#help'
 
   resources :microposts
-  # resources :pages
   resources :users
 
   # The priority is based upon order of creation:
