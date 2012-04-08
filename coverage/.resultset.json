@@ -9,11 +9,11 @@
       "/Users/jankoszewski/Dropbox/hungry academy/projects/railstutorial_app/app/helpers/application_helper.rb": [
         1,
         1,
-        11,
-        11,
+        13,
+        13,
         0,
         null,
-        11,
+        13,
         null,
         null,
         null
@@ -126,7 +126,7 @@
       "/Users/jankoszewski/Dropbox/hungry academy/projects/railstutorial_app/app/controllers/pages_controller.rb": [
         1,
         1,
-        2,
+        3,
         null,
         null,
         1,
@@ -169,11 +169,12 @@
         null,
         null,
         1,
-        0,
+        3,
+        3,
         null,
-        0,
-        0,
-        0,
+        3,
+        3,
+        3,
         null,
         null,
         null,
@@ -235,6 +236,6 @@
         null
       ]
     },
-    "timestamp": 1333897610
+    "timestamp": 1333902930
   }
 }
