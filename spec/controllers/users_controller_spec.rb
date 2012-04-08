@@ -46,9 +46,6 @@ describe UsersController do
     end
   end
 
-<<<<<<< HEAD
-
-=======
   describe "POST 'create'" do
 
     context "failure" do
@@ -77,5 +74,4 @@ describe UsersController do
 
     end
   end
->>>>>>> signing-up
 end
