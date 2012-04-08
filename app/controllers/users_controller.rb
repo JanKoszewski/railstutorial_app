@@ -6,7 +6,10 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+<<<<<<< HEAD
     @title = @user.name
+=======
+>>>>>>> signing-up
   end
 
   def new
@@ -20,8 +23,16 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(params[:user])
+<<<<<<< HEAD
     @user.save
     redirect_to user_path(@user)
+=======
+    if @user.save
+    else 
+      @title = "Sign Up"
+      render 'new'
+    end
+>>>>>>> signing-up
   end
 
   def update
