@@ -9,9 +9,9 @@
       "/Users/jankoszewski/Dropbox/hungry academy/projects/railstutorial_app/app/helpers/application_helper.rb": [
         1,
         1,
-        33,
-        33,
-        10,
+        35,
+        35,
+        12,
         null,
         23,
         null,
@@ -157,6 +157,7 @@
         null,
         null,
         1,
+        2,
         null,
         null,
         1,
@@ -260,6 +261,6 @@
         null
       ]
     },
-    "timestamp": 1333935737
+    "timestamp": 1333999161
   }
 }
