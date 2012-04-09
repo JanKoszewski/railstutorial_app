@@ -15,7 +15,8 @@ describe UsersController do
 
     it "should find the correct user" do
       get :show, :id => @user
-      assigns(:user).should = @user
+      user = assigns(:user)
+      user_path.should_be @user
     end
 
     it "should have the right title" do
@@ -42,7 +43,7 @@ describe UsersController do
 
     it "should have the right title" do
       get 'new'
-      response.should have_selector("title", :content => "Sign up")
+      response.should have_selector("title", :content => "Sign Up")
     end
   end
 
@@ -63,7 +64,7 @@ describe UsersController do
 
       it "should have the right title" do
         post :create, :user => @attr
-        response.should have_selector("title", :content => "Sign up")
+        response.should have_selector("title", :content => "Sign Up")
       end
 
       it "should render the 'new' page" do
